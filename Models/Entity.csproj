@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E3F49F0A-1A33-449C-8111-FA95E6391FAA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvPayment.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AttFile.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BiddingProfile.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BidPack.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BidPackBudget.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Category.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryType.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CauHinhHeThong.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contract.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContractItem.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contractor.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Department.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DonVi.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Configs_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_Danhsachduanchamtiendo_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_DanhSachDuAnCham_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_DanhSachDuAnTheoLoai_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_DanhSachGoiThauByProjectId_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_DanhSachGoiThauTrungThau_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_DanhSachHopDongByProjectId_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_DanhSachHopDongChamTienDo_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_DanhSachNhaThauByBidPackId_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_DanhSachQuyetToanHD_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_List_Samples_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Get_TienDoDuAn_Result.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GoodsCategory.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Group.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Group_User.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Handover.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HandoverItem.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MenuChucNang.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NhomHSTL.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PMMember.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Project.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBudget.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectGroup.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PTask.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QldaEntities.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QldaEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QldaEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QldaEntities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QldaEntities.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Settlement.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SettlementItem.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SharingGroup.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaskComment.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TaskProgress.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Token.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VanBan.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WinContractor.cs">
+      <DependentUpon>QldaEntities.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="QldaEntities.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QldaEntities.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="QldaEntities.edmx.diagram">
+      <DependentUpon>QldaEntities.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QldaEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QldaEntities.edmx</DependentUpon>
+      <LastGenOutput>QldaEntities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="QldaEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QldaEntities.edmx</DependentUpon>
+      <LastGenOutput>QldaEntities.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

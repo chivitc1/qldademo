@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fdd02eabf1f34996908ba3eb0132f796" Name="Diagram1">
+        <EntityTypeShape EntityType="Models.AdvPayment" Width="1.5" PointX="5.25" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.AttFile" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.BiddingProfile" Width="1.5" PointX="5.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.BidPack" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.BidPackBudget" Width="1.5" PointX="5.25" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Category" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.CategoryType" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.CauHinhHeThong" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Contract" Width="1.5" PointX="3" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.ContractItem" Width="1.5" PointX="5.25" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Contractor" Width="1.5" PointX="3" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Department" Width="1.5" PointX="8" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.DonVi" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.GoodsCategory" Width="1.5" PointX="10.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Group" Width="1.5" PointX="10.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Handover" Width="1.5" PointX="10.25" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.HandoverItem" Width="1.5" PointX="12.5" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.History" Width="1.5" PointX="12.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.MenuChucNang" Width="1.5" PointX="13" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.NhomHSTL" Width="1.5" PointX="14.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.PMMember" Width="1.5" PointX="3.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Project" Width="1.5" PointX="6" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.ProjectBudget" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.ProjectGroup" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.PTask" Width="1.5" PointX="8" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Report" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Settlement" Width="1.5" PointX="5.25" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.SettlementItem" Width="1.5" PointX="7.5" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.SharingGroup" Width="1.5" PointX="10.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.TaskComment" Width="1.5" PointX="15.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.TaskProgress" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.User" Width="1.5" PointX="13" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.VanBan" Width="1.5" PointX="15.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.WinContractor" Width="1.5" PointX="8.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Models.Group_User" Width="1.5" PointX="13" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="Models.FK60C8C236AFC27F08" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK60C8C236CF9B3A7B" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK831030778DFB2F53" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK83103077AFC27F08" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK6229ADB78DFB2F53" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK68FFEB141A5E6A37" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKD8F0F20E8DFB2F53" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK8E8B2B91CF9B3A7B" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKC99CED07CF9B3A7B" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK6229ADB7AFC27F08" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKE78E210CCB2D8253" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKE78E210CE7E29293" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKF7084D9DBCFBC7EB" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKFDB61B251454F8A4" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK1177E368DFC44469" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK6601A6907D7DE8B9" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKCFC6D85A1A5E6A37" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK9E6FCE6ECDE3E77E" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK1A18ADC41A5E6A37" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKCE914A2852D7AE64" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK6E604FB3B1CA2C8C" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKCF5765B98A313D72" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FKCF5765B9DFAAB7BA" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.FK6E604FB39D2DC2B6" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.Group_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.Project_PMMember" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.PTask_PMMember" ManuallyRouted="false" />
+        <AssociationConnector Association="Models.SharingGroup_User" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Models.Token" Width="1.5" PointX="17.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
