@@ -16,6 +16,8 @@
 // --------------------------------------------------------------------------------------------------------------------
 
 using System.Web;
+using ServiceContract;
+using ServiceImpl;
 using WebApi.Areas.HelpPage.Controllers;
 
 namespace WebApi.DependencyResolution {
@@ -40,6 +42,7 @@ namespace WebApi.DependencyResolution {
                 });
             //For<IExample>().Use<Example>();
             For<HelpController>().Use(ctx => new HelpController());
+            For<IUserService>().Use(ctx => new UserService());
         }
 
         #endregion

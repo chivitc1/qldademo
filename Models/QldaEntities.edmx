@@ -2279,7 +2279,7 @@ warning 6002: The table/view 'A77_1004.dbo.SharingGroup_User' does not have a pr
           <End Role="SharingGroup" Type="Self.SharingGroup" Multiplicity="*" />
           <End Role="User" Type="Self.User" Multiplicity="*" />
         </Association>
-        <EntityContainer Name="A77_1004" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="A77DbContext" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="AdvPayment" EntityType="Self.AdvPayment" />
           <EntitySet Name="AttFile" EntityType="Self.AttFile" />
           <EntitySet Name="BiddingProfile" EntityType="Self.BiddingProfile" />
@@ -2601,7 +2601,7 @@ warning 6002: The table/view 'A77_1004.dbo.SharingGroup_User' does not have a pr
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="ModelsStoreContainer" CdmEntityContainer="A77_1004">
+        <EntityContainerMapping StorageEntityContainer="ModelsStoreContainer" CdmEntityContainer="A77DbContext">
           <EntitySetMapping Name="AdvPayment">
             <EntityTypeMapping TypeName="Models.AdvPayment">
               <MappingFragment StoreEntitySet="AdvPayment">

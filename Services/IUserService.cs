@@ -9,7 +9,7 @@ namespace ServiceContract
 {
     public interface IUserService
     {
-        void Login(UserLoginDto userInfo);
+        bool Authenticate(UserLoginDto userInfo);
         void ChangePassword(ChangePasswordDto userInfo);
     }
 }

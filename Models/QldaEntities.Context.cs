@@ -15,10 +15,10 @@ namespace Entity
     using System.Data.Entity.Core.Objects;
     using System.Linq;
     
-    public partial class A77_1004 : DbContext
+    public partial class A77DbContext : DbContext
     {
-        public A77_1004()
-            : base("name=A77_1004")
+        public A77DbContext()
+            : base("name=A77DbContext")
         {
         }
     

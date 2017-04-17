@@ -11,5 +11,6 @@ namespace ServiceContract
     {
         CreateUserResponse Create(CreateUserDto userInfo);
         void ResetPassword(ChangePasswordDto userInfo);
+        GetDSUserResponse GetDSUsers();
     }
 }
